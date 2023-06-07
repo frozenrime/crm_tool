@@ -389,9 +389,9 @@ namespace CRM_Tool
             this.sideMenuPanel.Controls.Add(this.menuBtn);
             this.sideMenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sideMenuPanel.Location = new System.Drawing.Point(0, 0);
-            this.sideMenuPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.sideMenuPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sideMenuPanel.Name = "sideMenuPanel";
-            this.sideMenuPanel.Size = new System.Drawing.Size(75, 709);
+            this.sideMenuPanel.Size = new System.Drawing.Size(67, 567);
             this.sideMenuPanel.TabIndex = 0;
             // 
             // settingsBtn
@@ -403,10 +403,10 @@ namespace CRM_Tool
             this.settingsBtn.ForeColor = System.Drawing.Color.White;
             this.settingsBtn.Image = global::CRM_Tool.Properties.Resources._settings;
             this.settingsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingsBtn.Location = new System.Drawing.Point(4, 631);
-            this.settingsBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.settingsBtn.Location = new System.Drawing.Point(4, 505);
+            this.settingsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.settingsBtn.Name = "settingsBtn";
-            this.settingsBtn.Size = new System.Drawing.Size(296, 83);
+            this.settingsBtn.Size = new System.Drawing.Size(263, 66);
             this.settingsBtn.TabIndex = 9;
             this.settingsBtn.Text = "Settings";
             this.settingsBtn.UseVisualStyleBackColor = true;
@@ -421,10 +421,10 @@ namespace CRM_Tool
             this.reportsBtn.ForeColor = System.Drawing.Color.White;
             this.reportsBtn.Image = global::CRM_Tool.Properties.Resources._reports;
             this.reportsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.reportsBtn.Location = new System.Drawing.Point(4, 538);
-            this.reportsBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.reportsBtn.Location = new System.Drawing.Point(4, 430);
+            this.reportsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.reportsBtn.Name = "reportsBtn";
-            this.reportsBtn.Size = new System.Drawing.Size(296, 83);
+            this.reportsBtn.Size = new System.Drawing.Size(263, 66);
             this.reportsBtn.TabIndex = 8;
             this.reportsBtn.Text = "Reports";
             this.reportsBtn.UseVisualStyleBackColor = true;
@@ -439,10 +439,10 @@ namespace CRM_Tool
             this.tasksBtn.ForeColor = System.Drawing.Color.White;
             this.tasksBtn.Image = global::CRM_Tool.Properties.Resources._tasks;
             this.tasksBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tasksBtn.Location = new System.Drawing.Point(4, 446);
-            this.tasksBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tasksBtn.Location = new System.Drawing.Point(4, 357);
+            this.tasksBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tasksBtn.Name = "tasksBtn";
-            this.tasksBtn.Size = new System.Drawing.Size(296, 83);
+            this.tasksBtn.Size = new System.Drawing.Size(263, 66);
             this.tasksBtn.TabIndex = 7;
             this.tasksBtn.Text = "Tasks";
             this.tasksBtn.UseVisualStyleBackColor = true;
@@ -457,10 +457,10 @@ namespace CRM_Tool
             this.eventsBtn.ForeColor = System.Drawing.Color.White;
             this.eventsBtn.Image = global::CRM_Tool.Properties.Resources._events;
             this.eventsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.eventsBtn.Location = new System.Drawing.Point(4, 354);
-            this.eventsBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.eventsBtn.Location = new System.Drawing.Point(4, 283);
+            this.eventsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.eventsBtn.Name = "eventsBtn";
-            this.eventsBtn.Size = new System.Drawing.Size(296, 83);
+            this.eventsBtn.Size = new System.Drawing.Size(263, 66);
             this.eventsBtn.TabIndex = 6;
             this.eventsBtn.Text = "Events";
             this.eventsBtn.UseVisualStyleBackColor = true;
@@ -475,10 +475,10 @@ namespace CRM_Tool
             this.leadsBtn.ForeColor = System.Drawing.Color.White;
             this.leadsBtn.Image = global::CRM_Tool.Properties.Resources._leads;
             this.leadsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.leadsBtn.Location = new System.Drawing.Point(4, 262);
-            this.leadsBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.leadsBtn.Location = new System.Drawing.Point(4, 210);
+            this.leadsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.leadsBtn.Name = "leadsBtn";
-            this.leadsBtn.Size = new System.Drawing.Size(296, 83);
+            this.leadsBtn.Size = new System.Drawing.Size(263, 66);
             this.leadsBtn.TabIndex = 5;
             this.leadsBtn.Text = "Leads";
             this.leadsBtn.UseVisualStyleBackColor = true;
@@ -493,10 +493,10 @@ namespace CRM_Tool
             this.contactsBtn.ForeColor = System.Drawing.Color.White;
             this.contactsBtn.Image = global::CRM_Tool.Properties.Resources._contacts;
             this.contactsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.contactsBtn.Location = new System.Drawing.Point(4, 169);
-            this.contactsBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.contactsBtn.Location = new System.Drawing.Point(4, 135);
+            this.contactsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contactsBtn.Name = "contactsBtn";
-            this.contactsBtn.Size = new System.Drawing.Size(296, 83);
+            this.contactsBtn.Size = new System.Drawing.Size(263, 66);
             this.contactsBtn.TabIndex = 4;
             this.contactsBtn.Text = "Contacts";
             this.contactsBtn.UseVisualStyleBackColor = true;
@@ -511,10 +511,10 @@ namespace CRM_Tool
             this.dashboardBtn.ForeColor = System.Drawing.Color.White;
             this.dashboardBtn.Image = global::CRM_Tool.Properties.Resources._dashboard;
             this.dashboardBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashboardBtn.Location = new System.Drawing.Point(4, 77);
-            this.dashboardBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dashboardBtn.Location = new System.Drawing.Point(4, 62);
+            this.dashboardBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dashboardBtn.Name = "dashboardBtn";
-            this.dashboardBtn.Size = new System.Drawing.Size(296, 83);
+            this.dashboardBtn.Size = new System.Drawing.Size(263, 66);
             this.dashboardBtn.TabIndex = 3;
             this.dashboardBtn.Text = "Dashboard";
             this.dashboardBtn.UseVisualStyleBackColor = true;
@@ -525,7 +525,7 @@ namespace CRM_Tool
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(102, 18);
+            this.label1.Location = new System.Drawing.Point(91, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 44);
@@ -536,10 +536,10 @@ namespace CRM_Tool
             // 
             this.menuBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.menuBtn.Image = global::CRM_Tool.Properties.Resources._menu;
-            this.menuBtn.Location = new System.Drawing.Point(14, 18);
-            this.menuBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.menuBtn.Location = new System.Drawing.Point(12, 14);
+            this.menuBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.menuBtn.Name = "menuBtn";
-            this.menuBtn.Size = new System.Drawing.Size(48, 49);
+            this.menuBtn.Size = new System.Drawing.Size(43, 39);
             this.menuBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.menuBtn.TabIndex = 1;
             this.menuBtn.TabStop = false;
@@ -560,9 +560,9 @@ namespace CRM_Tool
             this.dashboardPanel.Controls.Add(this.panel4);
             this.dashboardPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dashboardPanel.Location = new System.Drawing.Point(0, 0);
-            this.dashboardPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dashboardPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dashboardPanel.Name = "dashboardPanel";
-            this.dashboardPanel.Size = new System.Drawing.Size(1251, 632);
+            this.dashboardPanel.Size = new System.Drawing.Size(1112, 505);
             this.dashboardPanel.TabIndex = 1;
             this.dashboardPanel.Visible = false;
             // 
@@ -570,8 +570,8 @@ namespace CRM_Tool
             // 
             this.splitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer10.IsSplitterFixed = true;
-            this.splitContainer10.Location = new System.Drawing.Point(45, 210);
-            this.splitContainer10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer10.Location = new System.Drawing.Point(40, 168);
+            this.splitContainer10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer10.Name = "splitContainer10";
             // 
             // splitContainer10.Panel1
@@ -582,9 +582,9 @@ namespace CRM_Tool
             // 
             this.splitContainer10.Panel2.Controls.Add(this.todaysEventsDVG);
             this.splitContainer10.Panel2.Controls.Add(this.panel13);
-            this.splitContainer10.Size = new System.Drawing.Size(1161, 407);
-            this.splitContainer10.SplitterDistance = 326;
-            this.splitContainer10.SplitterWidth = 30;
+            this.splitContainer10.Size = new System.Drawing.Size(1032, 325);
+            this.splitContainer10.SplitterDistance = 289;
+            this.splitContainer10.SplitterWidth = 27;
             this.splitContainer10.TabIndex = 12;
             // 
             // splitContainer11
@@ -592,7 +592,7 @@ namespace CRM_Tool
             this.splitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer11.IsSplitterFixed = true;
             this.splitContainer11.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer11.Name = "splitContainer11";
             this.splitContainer11.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -605,9 +605,9 @@ namespace CRM_Tool
             // 
             this.splitContainer11.Panel2.Controls.Add(this.dashboardTasksDVG);
             this.splitContainer11.Panel2.Controls.Add(this.panel15);
-            this.splitContainer11.Size = new System.Drawing.Size(326, 407);
-            this.splitContainer11.SplitterDistance = 201;
-            this.splitContainer11.SplitterWidth = 31;
+            this.splitContainer11.Size = new System.Drawing.Size(289, 325);
+            this.splitContainer11.SplitterDistance = 160;
+            this.splitContainer11.SplitterWidth = 25;
             this.splitContainer11.TabIndex = 0;
             // 
             // newLeadsDVG
@@ -664,8 +664,8 @@ namespace CRM_Tool
             this.newLeadsDVG.DefaultCellStyle = dataGridViewCellStyle3;
             this.newLeadsDVG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.newLeadsDVG.EnableHeadersVisualStyles = false;
-            this.newLeadsDVG.Location = new System.Drawing.Point(0, 46);
-            this.newLeadsDVG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.newLeadsDVG.Location = new System.Drawing.Point(0, 37);
+            this.newLeadsDVG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.newLeadsDVG.MultiSelect = false;
             this.newLeadsDVG.Name = "newLeadsDVG";
             this.newLeadsDVG.ReadOnly = true;
@@ -673,7 +673,7 @@ namespace CRM_Tool
             this.newLeadsDVG.RowHeadersWidth = 62;
             this.newLeadsDVG.RowTemplate.Height = 40;
             this.newLeadsDVG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.newLeadsDVG.Size = new System.Drawing.Size(326, 155);
+            this.newLeadsDVG.Size = new System.Drawing.Size(289, 123);
             this.newLeadsDVG.TabIndex = 6;
             // 
             // leadidDataGridViewTextBoxColumn1
@@ -876,9 +876,9 @@ namespace CRM_Tool
             this.panel14.Controls.Add(this.pictureBox11);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel14.Location = new System.Drawing.Point(0, 0);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(326, 46);
+            this.panel14.Size = new System.Drawing.Size(289, 37);
             this.panel14.TabIndex = 1;
             // 
             // label20
@@ -886,10 +886,10 @@ namespace CRM_Tool
             this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label20.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(45, 0);
+            this.label20.Location = new System.Drawing.Point(40, 0);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(281, 46);
+            this.label20.Size = new System.Drawing.Size(249, 37);
             this.label20.TabIndex = 2;
             this.label20.Text = "New Leads";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -899,9 +899,9 @@ namespace CRM_Tool
             this.pictureBox11.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox11.Image = global::CRM_Tool.Properties.Resources._leads;
             this.pictureBox11.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(45, 46);
+            this.pictureBox11.Size = new System.Drawing.Size(40, 37);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 1;
             this.pictureBox11.TabStop = false;
@@ -946,8 +946,8 @@ namespace CRM_Tool
             this.dashboardTasksDVG.DefaultCellStyle = dataGridViewCellStyle6;
             this.dashboardTasksDVG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dashboardTasksDVG.EnableHeadersVisualStyles = false;
-            this.dashboardTasksDVG.Location = new System.Drawing.Point(0, 46);
-            this.dashboardTasksDVG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dashboardTasksDVG.Location = new System.Drawing.Point(0, 37);
+            this.dashboardTasksDVG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dashboardTasksDVG.MultiSelect = false;
             this.dashboardTasksDVG.Name = "dashboardTasksDVG";
             this.dashboardTasksDVG.ReadOnly = true;
@@ -955,7 +955,7 @@ namespace CRM_Tool
             this.dashboardTasksDVG.RowHeadersWidth = 62;
             this.dashboardTasksDVG.RowTemplate.Height = 40;
             this.dashboardTasksDVG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dashboardTasksDVG.Size = new System.Drawing.Size(326, 129);
+            this.dashboardTasksDVG.Size = new System.Drawing.Size(289, 103);
             this.dashboardTasksDVG.TabIndex = 6;
             // 
             // taskidDataGridViewTextBoxColumn1
@@ -1034,9 +1034,9 @@ namespace CRM_Tool
             this.panel15.Controls.Add(this.pictureBox10);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel15.Location = new System.Drawing.Point(0, 0);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(326, 46);
+            this.panel15.Size = new System.Drawing.Size(289, 37);
             this.panel15.TabIndex = 1;
             // 
             // label22
@@ -1044,10 +1044,10 @@ namespace CRM_Tool
             this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label22.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(45, 0);
+            this.label22.Location = new System.Drawing.Point(40, 0);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(281, 46);
+            this.label22.Size = new System.Drawing.Size(249, 37);
             this.label22.TabIndex = 2;
             this.label22.Text = "Tasks";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1057,9 +1057,9 @@ namespace CRM_Tool
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox10.Image = global::CRM_Tool.Properties.Resources._tasks;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(45, 46);
+            this.pictureBox10.Size = new System.Drawing.Size(40, 37);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 1;
             this.pictureBox10.TabStop = false;
@@ -1106,8 +1106,8 @@ namespace CRM_Tool
             this.todaysEventsDVG.DefaultCellStyle = dataGridViewCellStyle9;
             this.todaysEventsDVG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.todaysEventsDVG.EnableHeadersVisualStyles = false;
-            this.todaysEventsDVG.Location = new System.Drawing.Point(0, 46);
-            this.todaysEventsDVG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.todaysEventsDVG.Location = new System.Drawing.Point(0, 37);
+            this.todaysEventsDVG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.todaysEventsDVG.MultiSelect = false;
             this.todaysEventsDVG.Name = "todaysEventsDVG";
             this.todaysEventsDVG.ReadOnly = true;
@@ -1115,7 +1115,7 @@ namespace CRM_Tool
             this.todaysEventsDVG.RowHeadersWidth = 62;
             this.todaysEventsDVG.RowTemplate.Height = 40;
             this.todaysEventsDVG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.todaysEventsDVG.Size = new System.Drawing.Size(805, 361);
+            this.todaysEventsDVG.Size = new System.Drawing.Size(716, 288);
             this.todaysEventsDVG.TabIndex = 5;
             // 
             // eventidDataGridViewTextBoxColumn1
@@ -1211,9 +1211,9 @@ namespace CRM_Tool
             this.panel13.Controls.Add(this.pictureBox9);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel13.Location = new System.Drawing.Point(0, 0);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(805, 46);
+            this.panel13.Size = new System.Drawing.Size(716, 37);
             this.panel13.TabIndex = 0;
             // 
             // label21
@@ -1221,10 +1221,10 @@ namespace CRM_Tool
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label21.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(45, 0);
+            this.label21.Location = new System.Drawing.Point(40, 0);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(760, 46);
+            this.label21.Size = new System.Drawing.Size(676, 37);
             this.label21.TabIndex = 1;
             this.label21.Text = "Today\'s Events";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1234,9 +1234,9 @@ namespace CRM_Tool
             this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox9.Image = global::CRM_Tool.Properties.Resources._events;
             this.pictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(45, 46);
+            this.pictureBox9.Size = new System.Drawing.Size(40, 37);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
@@ -1244,27 +1244,27 @@ namespace CRM_Tool
             // panel16
             // 
             this.panel16.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel16.Location = new System.Drawing.Point(45, 617);
-            this.panel16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel16.Location = new System.Drawing.Point(40, 493);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1161, 15);
+            this.panel16.Size = new System.Drawing.Size(1032, 12);
             this.panel16.TabIndex = 0;
             // 
             // panel12
             // 
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(45, 164);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel12.Location = new System.Drawing.Point(40, 131);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(1161, 46);
+            this.panel12.Size = new System.Drawing.Size(1032, 37);
             this.panel12.TabIndex = 11;
             // 
             // splitContainer4
             // 
             this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Top;
             this.splitContainer4.IsSplitterFixed = true;
-            this.splitContainer4.Location = new System.Drawing.Point(45, 46);
-            this.splitContainer4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer4.Location = new System.Drawing.Point(40, 37);
+            this.splitContainer4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer4.Name = "splitContainer4";
             // 
             // splitContainer4.Panel1
@@ -1274,9 +1274,9 @@ namespace CRM_Tool
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.splitContainer6);
-            this.splitContainer4.Size = new System.Drawing.Size(1161, 118);
-            this.splitContainer4.SplitterDistance = 326;
-            this.splitContainer4.SplitterWidth = 30;
+            this.splitContainer4.Size = new System.Drawing.Size(1032, 94);
+            this.splitContainer4.SplitterDistance = 289;
+            this.splitContainer4.SplitterWidth = 27;
             this.splitContainer4.TabIndex = 5;
             // 
             // splitContainer5
@@ -1284,7 +1284,7 @@ namespace CRM_Tool
             this.splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer5.IsSplitterFixed = true;
             this.splitContainer5.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer5.Name = "splitContainer5";
             // 
             // splitContainer5.Panel1
@@ -1294,9 +1294,9 @@ namespace CRM_Tool
             // splitContainer5.Panel2
             // 
             this.splitContainer5.Panel2.Controls.Add(this.contactsCard);
-            this.splitContainer5.Size = new System.Drawing.Size(326, 118);
-            this.splitContainer5.SplitterDistance = 90;
-            this.splitContainer5.SplitterWidth = 30;
+            this.splitContainer5.Size = new System.Drawing.Size(289, 94);
+            this.splitContainer5.SplitterDistance = 79;
+            this.splitContainer5.SplitterWidth = 27;
             this.splitContainer5.TabIndex = 0;
             // 
             // newLeadsCard
@@ -1308,9 +1308,9 @@ namespace CRM_Tool
             this.newLeadsCard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.newLeadsCard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.newLeadsCard.Location = new System.Drawing.Point(0, 0);
-            this.newLeadsCard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.newLeadsCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.newLeadsCard.Name = "newLeadsCard";
-            this.newLeadsCard.Size = new System.Drawing.Size(90, 118);
+            this.newLeadsCard.Size = new System.Drawing.Size(79, 94);
             this.newLeadsCard.TabIndex = 0;
             this.newLeadsCard.Click += new System.EventHandler(this.newLeadsCard_Click);
             // 
@@ -1319,10 +1319,10 @@ namespace CRM_Tool
             this.leadsCountLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.leadsCountLabel.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.leadsCountLabel.ForeColor = System.Drawing.Color.White;
-            this.leadsCountLabel.Location = new System.Drawing.Point(117, 63);
+            this.leadsCountLabel.Location = new System.Drawing.Point(104, 50);
             this.leadsCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.leadsCountLabel.Name = "leadsCountLabel";
-            this.leadsCountLabel.Size = new System.Drawing.Size(0, 55);
+            this.leadsCountLabel.Size = new System.Drawing.Size(0, 44);
             this.leadsCountLabel.TabIndex = 2;
             this.leadsCountLabel.Text = "20";
             this.leadsCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1332,10 +1332,10 @@ namespace CRM_Tool
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(117, 0);
+            this.label2.Location = new System.Drawing.Point(104, 0);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 55);
+            this.label2.Size = new System.Drawing.Size(0, 44);
             this.label2.TabIndex = 1;
             this.label2.Text = "Leads";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1345,9 +1345,9 @@ namespace CRM_Tool
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = global::CRM_Tool.Properties.Resources._leads;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 118);
+            this.pictureBox1.Size = new System.Drawing.Size(104, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -1361,9 +1361,9 @@ namespace CRM_Tool
             this.contactsCard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.contactsCard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contactsCard.Location = new System.Drawing.Point(0, 0);
-            this.contactsCard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.contactsCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contactsCard.Name = "contactsCard";
-            this.contactsCard.Size = new System.Drawing.Size(206, 118);
+            this.contactsCard.Size = new System.Drawing.Size(183, 94);
             this.contactsCard.TabIndex = 3;
             this.contactsCard.Click += new System.EventHandler(this.contactsCard_Click);
             // 
@@ -1372,10 +1372,10 @@ namespace CRM_Tool
             this.contactsCountLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.contactsCountLabel.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contactsCountLabel.ForeColor = System.Drawing.Color.White;
-            this.contactsCountLabel.Location = new System.Drawing.Point(117, 63);
+            this.contactsCountLabel.Location = new System.Drawing.Point(104, 50);
             this.contactsCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.contactsCountLabel.Name = "contactsCountLabel";
-            this.contactsCountLabel.Size = new System.Drawing.Size(89, 55);
+            this.contactsCountLabel.Size = new System.Drawing.Size(79, 44);
             this.contactsCountLabel.TabIndex = 2;
             this.contactsCountLabel.Text = "20";
             this.contactsCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1385,10 +1385,10 @@ namespace CRM_Tool
             this.label7.Dock = System.Windows.Forms.DockStyle.Top;
             this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(117, 0);
+            this.label7.Location = new System.Drawing.Point(104, 0);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 55);
+            this.label7.Size = new System.Drawing.Size(79, 44);
             this.label7.TabIndex = 1;
             this.label7.Text = "Contacts";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1398,9 +1398,9 @@ namespace CRM_Tool
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox2.Image = global::CRM_Tool.Properties.Resources._contacts;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(117, 118);
+            this.pictureBox2.Size = new System.Drawing.Size(104, 94);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -1410,7 +1410,7 @@ namespace CRM_Tool
             this.splitContainer6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer6.IsSplitterFixed = true;
             this.splitContainer6.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer6.Name = "splitContainer6";
             // 
             // splitContainer6.Panel1
@@ -1420,9 +1420,9 @@ namespace CRM_Tool
             // splitContainer6.Panel2
             // 
             this.splitContainer6.Panel2.Controls.Add(this.tasksCard);
-            this.splitContainer6.Size = new System.Drawing.Size(805, 118);
-            this.splitContainer6.SplitterDistance = 220;
-            this.splitContainer6.SplitterWidth = 30;
+            this.splitContainer6.Size = new System.Drawing.Size(716, 94);
+            this.splitContainer6.SplitterDistance = 195;
+            this.splitContainer6.SplitterWidth = 27;
             this.splitContainer6.TabIndex = 0;
             // 
             // eventsCard
@@ -1434,9 +1434,9 @@ namespace CRM_Tool
             this.eventsCard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eventsCard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.eventsCard.Location = new System.Drawing.Point(0, 0);
-            this.eventsCard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.eventsCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.eventsCard.Name = "eventsCard";
-            this.eventsCard.Size = new System.Drawing.Size(220, 118);
+            this.eventsCard.Size = new System.Drawing.Size(195, 94);
             this.eventsCard.TabIndex = 4;
             this.eventsCard.Click += new System.EventHandler(this.eventsCard_Click);
             // 
@@ -1445,10 +1445,10 @@ namespace CRM_Tool
             this.eventsCountLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.eventsCountLabel.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventsCountLabel.ForeColor = System.Drawing.Color.White;
-            this.eventsCountLabel.Location = new System.Drawing.Point(117, 63);
+            this.eventsCountLabel.Location = new System.Drawing.Point(104, 50);
             this.eventsCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.eventsCountLabel.Name = "eventsCountLabel";
-            this.eventsCountLabel.Size = new System.Drawing.Size(103, 55);
+            this.eventsCountLabel.Size = new System.Drawing.Size(91, 44);
             this.eventsCountLabel.TabIndex = 2;
             this.eventsCountLabel.Text = "20";
             this.eventsCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1458,10 +1458,10 @@ namespace CRM_Tool
             this.label9.Dock = System.Windows.Forms.DockStyle.Top;
             this.label9.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(117, 0);
+            this.label9.Location = new System.Drawing.Point(104, 0);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(103, 55);
+            this.label9.Size = new System.Drawing.Size(91, 44);
             this.label9.TabIndex = 1;
             this.label9.Text = "Events";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1471,9 +1471,9 @@ namespace CRM_Tool
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox3.Image = global::CRM_Tool.Properties.Resources._events;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(117, 118);
+            this.pictureBox3.Size = new System.Drawing.Size(104, 94);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -1487,9 +1487,9 @@ namespace CRM_Tool
             this.tasksCard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tasksCard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tasksCard.Location = new System.Drawing.Point(0, 0);
-            this.tasksCard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tasksCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tasksCard.Name = "tasksCard";
-            this.tasksCard.Size = new System.Drawing.Size(555, 118);
+            this.tasksCard.Size = new System.Drawing.Size(494, 94);
             this.tasksCard.TabIndex = 4;
             this.tasksCard.Click += new System.EventHandler(this.tasksCard_Click);
             // 
@@ -1498,10 +1498,10 @@ namespace CRM_Tool
             this.tasksCountLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tasksCountLabel.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tasksCountLabel.ForeColor = System.Drawing.Color.White;
-            this.tasksCountLabel.Location = new System.Drawing.Point(117, 63);
+            this.tasksCountLabel.Location = new System.Drawing.Point(104, 50);
             this.tasksCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tasksCountLabel.Name = "tasksCountLabel";
-            this.tasksCountLabel.Size = new System.Drawing.Size(438, 55);
+            this.tasksCountLabel.Size = new System.Drawing.Size(390, 44);
             this.tasksCountLabel.TabIndex = 2;
             this.tasksCountLabel.Text = "20";
             this.tasksCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1511,10 +1511,10 @@ namespace CRM_Tool
             this.label11.Dock = System.Windows.Forms.DockStyle.Top;
             this.label11.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(117, 0);
+            this.label11.Location = new System.Drawing.Point(104, 0);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(438, 55);
+            this.label11.Size = new System.Drawing.Size(390, 44);
             this.label11.TabIndex = 1;
             this.label11.Text = "Tasks";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1524,9 +1524,9 @@ namespace CRM_Tool
             this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox4.Image = global::CRM_Tool.Properties.Resources._tasks;
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(117, 118);
+            this.pictureBox4.Size = new System.Drawing.Size(104, 94);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
@@ -1534,28 +1534,28 @@ namespace CRM_Tool
             // panel6
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(1206, 46);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel6.Location = new System.Drawing.Point(1072, 37);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(45, 586);
+            this.panel6.Size = new System.Drawing.Size(40, 468);
             this.panel6.TabIndex = 8;
             // 
             // panel5
             // 
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 46);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel5.Location = new System.Drawing.Point(0, 37);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(45, 586);
+            this.panel5.Size = new System.Drawing.Size(40, 468);
             this.panel5.TabIndex = 7;
             // 
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1251, 46);
+            this.panel4.Size = new System.Drawing.Size(1112, 37);
             this.panel4.TabIndex = 6;
             // 
             // contactsPanel
@@ -1568,9 +1568,9 @@ namespace CRM_Tool
             this.contactsPanel.Controls.Add(this.panel17);
             this.contactsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contactsPanel.Location = new System.Drawing.Point(0, 0);
-            this.contactsPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.contactsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contactsPanel.Name = "contactsPanel";
-            this.contactsPanel.Size = new System.Drawing.Size(1251, 632);
+            this.contactsPanel.Size = new System.Drawing.Size(1112, 505);
             this.contactsPanel.TabIndex = 0;
             this.contactsPanel.Visible = false;
             // 
@@ -1619,8 +1619,8 @@ namespace CRM_Tool
             this.contactDVG.DefaultCellStyle = dataGridViewCellStyle12;
             this.contactDVG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contactDVG.EnableHeadersVisualStyles = false;
-            this.contactDVG.Location = new System.Drawing.Point(75, 87);
-            this.contactDVG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.contactDVG.Location = new System.Drawing.Point(67, 79);
+            this.contactDVG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contactDVG.MultiSelect = false;
             this.contactDVG.Name = "contactDVG";
             this.contactDVG.ReadOnly = true;
@@ -1628,7 +1628,7 @@ namespace CRM_Tool
             this.contactDVG.RowHeadersWidth = 62;
             this.contactDVG.RowTemplate.Height = 40;
             this.contactDVG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.contactDVG.Size = new System.Drawing.Size(1101, 507);
+            this.contactDVG.Size = new System.Drawing.Size(978, 396);
             this.contactDVG.TabIndex = 2;
             this.contactDVG.SelectionChanged += new System.EventHandler(this.contactDVG_SelectionChanged);
             // 
@@ -1780,11 +1780,11 @@ namespace CRM_Tool
             this.mailCntBtn,
             this.searchCntTxt,
             this.toolStripLabel1});
-            this.contactsTtoolStrip.Location = new System.Drawing.Point(75, 38);
+            this.contactsTtoolStrip.Location = new System.Drawing.Point(67, 30);
             this.contactsTtoolStrip.Name = "contactsTtoolStrip";
             this.contactsTtoolStrip.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.contactsTtoolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.contactsTtoolStrip.Size = new System.Drawing.Size(1101, 49);
+            this.contactsTtoolStrip.Size = new System.Drawing.Size(978, 49);
             this.contactsTtoolStrip.TabIndex = 3;
             this.contactsTtoolStrip.Text = "toolStrip1";
             // 
@@ -1886,7 +1886,7 @@ namespace CRM_Tool
             this.searchCntTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchCntTxt.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchCntTxt.Name = "searchCntTxt";
-            this.searchCntTxt.Size = new System.Drawing.Size(329, 49);
+            this.searchCntTxt.Size = new System.Drawing.Size(293, 49);
             this.searchCntTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchCntTxt_KeyPress);
             this.searchCntTxt.TextChanged += new System.EventHandler(this.searchCntTxt_TextChanged);
             // 
@@ -1901,37 +1901,37 @@ namespace CRM_Tool
             // panel20
             // 
             this.panel20.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel20.Location = new System.Drawing.Point(75, 594);
-            this.panel20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel20.Location = new System.Drawing.Point(67, 475);
+            this.panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(1101, 38);
+            this.panel20.Size = new System.Drawing.Size(978, 30);
             this.panel20.TabIndex = 7;
             // 
             // panel19
             // 
             this.panel19.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel19.Location = new System.Drawing.Point(1176, 38);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel19.Location = new System.Drawing.Point(1045, 30);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(75, 594);
+            this.panel19.Size = new System.Drawing.Size(67, 475);
             this.panel19.TabIndex = 6;
             // 
             // panel18
             // 
             this.panel18.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel18.Location = new System.Drawing.Point(0, 38);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel18.Location = new System.Drawing.Point(0, 30);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(75, 594);
+            this.panel18.Size = new System.Drawing.Size(67, 475);
             this.panel18.TabIndex = 5;
             // 
             // panel17
             // 
             this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel17.Location = new System.Drawing.Point(0, 0);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(1251, 38);
+            this.panel17.Size = new System.Drawing.Size(1112, 30);
             this.panel17.TabIndex = 4;
             // 
             // MainPanel
@@ -1943,10 +1943,10 @@ namespace CRM_Tool
             this.MainPanel.Controls.Add(this.contactsPanel);
             this.MainPanel.Controls.Add(this.reportsPanel);
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainPanel.Location = new System.Drawing.Point(75, 77);
-            this.MainPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MainPanel.Location = new System.Drawing.Point(67, 62);
+            this.MainPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1251, 632);
+            this.MainPanel.Size = new System.Drawing.Size(1112, 505);
             this.MainPanel.TabIndex = 0;
             // 
             // tasksPanel
@@ -1959,9 +1959,9 @@ namespace CRM_Tool
             this.tasksPanel.Controls.Add(this.panel32);
             this.tasksPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tasksPanel.Location = new System.Drawing.Point(0, 0);
-            this.tasksPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tasksPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tasksPanel.Name = "tasksPanel";
-            this.tasksPanel.Size = new System.Drawing.Size(1251, 632);
+            this.tasksPanel.Size = new System.Drawing.Size(1112, 505);
             this.tasksPanel.TabIndex = 4;
             this.tasksPanel.Visible = false;
             // 
@@ -2004,8 +2004,8 @@ namespace CRM_Tool
             this.tasksDVG.DefaultCellStyle = dataGridViewCellStyle15;
             this.tasksDVG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tasksDVG.EnableHeadersVisualStyles = false;
-            this.tasksDVG.Location = new System.Drawing.Point(75, 87);
-            this.tasksDVG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tasksDVG.Location = new System.Drawing.Point(67, 79);
+            this.tasksDVG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tasksDVG.MultiSelect = false;
             this.tasksDVG.Name = "tasksDVG";
             this.tasksDVG.ReadOnly = true;
@@ -2013,7 +2013,7 @@ namespace CRM_Tool
             this.tasksDVG.RowHeadersWidth = 62;
             this.tasksDVG.RowTemplate.Height = 40;
             this.tasksDVG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.tasksDVG.Size = new System.Drawing.Size(1101, 507);
+            this.tasksDVG.Size = new System.Drawing.Size(978, 396);
             this.tasksDVG.TabIndex = 6;
             this.tasksDVG.SelectionChanged += new System.EventHandler(this.tasksDVG_SelectionChanged);
             // 
@@ -2090,11 +2090,11 @@ namespace CRM_Tool
             this.printTaskBtn,
             this.searchTaskTxt,
             this.toolStripLabel4});
-            this.tasksToolStrip.Location = new System.Drawing.Point(75, 38);
+            this.tasksToolStrip.Location = new System.Drawing.Point(67, 30);
             this.tasksToolStrip.Name = "tasksToolStrip";
             this.tasksToolStrip.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.tasksToolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.tasksToolStrip.Size = new System.Drawing.Size(1101, 49);
+            this.tasksToolStrip.Size = new System.Drawing.Size(978, 49);
             this.tasksToolStrip.TabIndex = 7;
             this.tasksToolStrip.Text = "toolStrip1";
             // 
@@ -2181,7 +2181,7 @@ namespace CRM_Tool
             this.searchTaskTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchTaskTxt.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchTaskTxt.Name = "searchTaskTxt";
-            this.searchTaskTxt.Size = new System.Drawing.Size(329, 49);
+            this.searchTaskTxt.Size = new System.Drawing.Size(293, 49);
             this.searchTaskTxt.TextChanged += new System.EventHandler(this.searchTaskTxt_TextChanged);
             // 
             // toolStripLabel4
@@ -2195,37 +2195,37 @@ namespace CRM_Tool
             // panel29
             // 
             this.panel29.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel29.Location = new System.Drawing.Point(75, 594);
-            this.panel29.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel29.Location = new System.Drawing.Point(67, 475);
+            this.panel29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(1101, 38);
+            this.panel29.Size = new System.Drawing.Size(978, 30);
             this.panel29.TabIndex = 11;
             // 
             // panel30
             // 
             this.panel30.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel30.Location = new System.Drawing.Point(1176, 38);
-            this.panel30.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel30.Location = new System.Drawing.Point(1045, 30);
+            this.panel30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(75, 594);
+            this.panel30.Size = new System.Drawing.Size(67, 475);
             this.panel30.TabIndex = 10;
             // 
             // panel31
             // 
             this.panel31.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel31.Location = new System.Drawing.Point(0, 38);
-            this.panel31.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel31.Location = new System.Drawing.Point(0, 30);
+            this.panel31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(75, 594);
+            this.panel31.Size = new System.Drawing.Size(67, 475);
             this.panel31.TabIndex = 9;
             // 
             // panel32
             // 
             this.panel32.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel32.Location = new System.Drawing.Point(0, 0);
-            this.panel32.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(1251, 38);
+            this.panel32.Size = new System.Drawing.Size(1112, 30);
             this.panel32.TabIndex = 8;
             // 
             // leadsPanel
@@ -2238,9 +2238,9 @@ namespace CRM_Tool
             this.leadsPanel.Controls.Add(this.panel24);
             this.leadsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.leadsPanel.Location = new System.Drawing.Point(0, 0);
-            this.leadsPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.leadsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.leadsPanel.Name = "leadsPanel";
-            this.leadsPanel.Size = new System.Drawing.Size(1251, 632);
+            this.leadsPanel.Size = new System.Drawing.Size(1112, 505);
             this.leadsPanel.TabIndex = 4;
             this.leadsPanel.Visible = false;
             // 
@@ -2297,8 +2297,8 @@ namespace CRM_Tool
             this.leadsDVG.DefaultCellStyle = dataGridViewCellStyle18;
             this.leadsDVG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.leadsDVG.EnableHeadersVisualStyles = false;
-            this.leadsDVG.Location = new System.Drawing.Point(75, 87);
-            this.leadsDVG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.leadsDVG.Location = new System.Drawing.Point(67, 79);
+            this.leadsDVG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.leadsDVG.MultiSelect = false;
             this.leadsDVG.Name = "leadsDVG";
             this.leadsDVG.ReadOnly = true;
@@ -2306,7 +2306,7 @@ namespace CRM_Tool
             this.leadsDVG.RowHeadersWidth = 62;
             this.leadsDVG.RowTemplate.Height = 40;
             this.leadsDVG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.leadsDVG.Size = new System.Drawing.Size(1101, 507);
+            this.leadsDVG.Size = new System.Drawing.Size(978, 396);
             this.leadsDVG.TabIndex = 4;
             this.leadsDVG.SelectionChanged += new System.EventHandler(this.leadsDVG_SelectionChanged);
             // 
@@ -2546,11 +2546,11 @@ namespace CRM_Tool
             this.printLeadBtn,
             this.searchLeadTxt,
             this.toolStripLabel2});
-            this.leadsToolStrip.Location = new System.Drawing.Point(75, 38);
+            this.leadsToolStrip.Location = new System.Drawing.Point(67, 30);
             this.leadsToolStrip.Name = "leadsToolStrip";
             this.leadsToolStrip.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.leadsToolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.leadsToolStrip.Size = new System.Drawing.Size(1101, 49);
+            this.leadsToolStrip.Size = new System.Drawing.Size(978, 49);
             this.leadsToolStrip.TabIndex = 5;
             this.leadsToolStrip.Text = "toolStrip1";
             // 
@@ -2637,7 +2637,7 @@ namespace CRM_Tool
             this.searchLeadTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchLeadTxt.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchLeadTxt.Name = "searchLeadTxt";
-            this.searchLeadTxt.Size = new System.Drawing.Size(329, 49);
+            this.searchLeadTxt.Size = new System.Drawing.Size(293, 49);
             this.searchLeadTxt.TextChanged += new System.EventHandler(this.searchLeadTxt_TextChanged);
             // 
             // toolStripLabel2
@@ -2651,37 +2651,37 @@ namespace CRM_Tool
             // panel21
             // 
             this.panel21.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel21.Location = new System.Drawing.Point(75, 594);
-            this.panel21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel21.Location = new System.Drawing.Point(67, 475);
+            this.panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(1101, 38);
+            this.panel21.Size = new System.Drawing.Size(978, 30);
             this.panel21.TabIndex = 11;
             // 
             // panel22
             // 
             this.panel22.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel22.Location = new System.Drawing.Point(1176, 38);
-            this.panel22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel22.Location = new System.Drawing.Point(1045, 30);
+            this.panel22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(75, 594);
+            this.panel22.Size = new System.Drawing.Size(67, 475);
             this.panel22.TabIndex = 10;
             // 
             // panel23
             // 
             this.panel23.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel23.Location = new System.Drawing.Point(0, 38);
-            this.panel23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel23.Location = new System.Drawing.Point(0, 30);
+            this.panel23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(75, 594);
+            this.panel23.Size = new System.Drawing.Size(67, 475);
             this.panel23.TabIndex = 9;
             // 
             // panel24
             // 
             this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel24.Location = new System.Drawing.Point(0, 0);
-            this.panel24.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(1251, 38);
+            this.panel24.Size = new System.Drawing.Size(1112, 30);
             this.panel24.TabIndex = 8;
             // 
             // eventsPanel
@@ -2694,9 +2694,9 @@ namespace CRM_Tool
             this.eventsPanel.Controls.Add(this.panel28);
             this.eventsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.eventsPanel.Location = new System.Drawing.Point(0, 0);
-            this.eventsPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.eventsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.eventsPanel.Name = "eventsPanel";
-            this.eventsPanel.Size = new System.Drawing.Size(1251, 632);
+            this.eventsPanel.Size = new System.Drawing.Size(1112, 505);
             this.eventsPanel.TabIndex = 6;
             this.eventsPanel.Visible = false;
             // 
@@ -2742,8 +2742,8 @@ namespace CRM_Tool
             this.eventsDVG.DefaultCellStyle = dataGridViewCellStyle21;
             this.eventsDVG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.eventsDVG.EnableHeadersVisualStyles = false;
-            this.eventsDVG.Location = new System.Drawing.Point(75, 87);
-            this.eventsDVG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.eventsDVG.Location = new System.Drawing.Point(67, 79);
+            this.eventsDVG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.eventsDVG.MultiSelect = false;
             this.eventsDVG.Name = "eventsDVG";
             this.eventsDVG.ReadOnly = true;
@@ -2751,7 +2751,7 @@ namespace CRM_Tool
             this.eventsDVG.RowHeadersWidth = 62;
             this.eventsDVG.RowTemplate.Height = 40;
             this.eventsDVG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.eventsDVG.Size = new System.Drawing.Size(1101, 507);
+            this.eventsDVG.Size = new System.Drawing.Size(978, 396);
             this.eventsDVG.TabIndex = 6;
             this.eventsDVG.SelectionChanged += new System.EventHandler(this.eventsDVG_SelectionChanged);
             // 
@@ -2854,11 +2854,11 @@ namespace CRM_Tool
             this.printEventBtn,
             this.searchEventTxt,
             this.toolStripLabel3});
-            this.eventsToolStrip.Location = new System.Drawing.Point(75, 38);
+            this.eventsToolStrip.Location = new System.Drawing.Point(67, 30);
             this.eventsToolStrip.Name = "eventsToolStrip";
             this.eventsToolStrip.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.eventsToolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.eventsToolStrip.Size = new System.Drawing.Size(1101, 49);
+            this.eventsToolStrip.Size = new System.Drawing.Size(978, 49);
             this.eventsToolStrip.TabIndex = 7;
             this.eventsToolStrip.Text = "toolStrip1";
             // 
@@ -2945,7 +2945,7 @@ namespace CRM_Tool
             this.searchEventTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchEventTxt.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchEventTxt.Name = "searchEventTxt";
-            this.searchEventTxt.Size = new System.Drawing.Size(329, 49);
+            this.searchEventTxt.Size = new System.Drawing.Size(293, 49);
             this.searchEventTxt.TextChanged += new System.EventHandler(this.searchEventTxt_TextChanged);
             // 
             // toolStripLabel3
@@ -2959,37 +2959,37 @@ namespace CRM_Tool
             // panel25
             // 
             this.panel25.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel25.Location = new System.Drawing.Point(75, 594);
-            this.panel25.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel25.Location = new System.Drawing.Point(67, 475);
+            this.panel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(1101, 38);
+            this.panel25.Size = new System.Drawing.Size(978, 30);
             this.panel25.TabIndex = 11;
             // 
             // panel26
             // 
             this.panel26.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel26.Location = new System.Drawing.Point(1176, 38);
-            this.panel26.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel26.Location = new System.Drawing.Point(1045, 30);
+            this.panel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(75, 594);
+            this.panel26.Size = new System.Drawing.Size(67, 475);
             this.panel26.TabIndex = 10;
             // 
             // panel27
             // 
             this.panel27.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel27.Location = new System.Drawing.Point(0, 38);
-            this.panel27.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel27.Location = new System.Drawing.Point(0, 30);
+            this.panel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(75, 594);
+            this.panel27.Size = new System.Drawing.Size(67, 475);
             this.panel27.TabIndex = 9;
             // 
             // panel28
             // 
             this.panel28.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel28.Location = new System.Drawing.Point(0, 0);
-            this.panel28.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(1251, 38);
+            this.panel28.Size = new System.Drawing.Size(1112, 30);
             this.panel28.TabIndex = 8;
             // 
             // reportsPanel
@@ -2997,9 +2997,9 @@ namespace CRM_Tool
             this.reportsPanel.Controls.Add(this.splitContainer1);
             this.reportsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportsPanel.Location = new System.Drawing.Point(0, 0);
-            this.reportsPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.reportsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.reportsPanel.Name = "reportsPanel";
-            this.reportsPanel.Size = new System.Drawing.Size(1251, 632);
+            this.reportsPanel.Size = new System.Drawing.Size(1112, 505);
             this.reportsPanel.TabIndex = 8;
             this.reportsPanel.Visible = false;
             // 
@@ -3008,7 +3008,7 @@ namespace CRM_Tool
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -3018,9 +3018,9 @@ namespace CRM_Tool
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer3);
-            this.splitContainer1.Size = new System.Drawing.Size(1251, 632);
-            this.splitContainer1.SplitterDistance = 362;
-            this.splitContainer1.SplitterWidth = 6;
+            this.splitContainer1.Size = new System.Drawing.Size(1112, 505);
+            this.splitContainer1.SplitterDistance = 321;
+            this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 0;
             // 
             // splitContainer2
@@ -3028,7 +3028,7 @@ namespace CRM_Tool
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.IsSplitterFixed = true;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer2.Name = "splitContainer2";
             this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -3041,16 +3041,16 @@ namespace CRM_Tool
             // 
             this.splitContainer2.Panel2.Controls.Add(this.label4);
             this.splitContainer2.Panel2.Controls.Add(this.eventStatusChart);
-            this.splitContainer2.Size = new System.Drawing.Size(362, 632);
-            this.splitContainer2.SplitterDistance = 314;
-            this.splitContainer2.SplitterWidth = 6;
+            this.splitContainer2.Size = new System.Drawing.Size(321, 505);
+            this.splitContainer2.SplitterDistance = 250;
+            this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(9, 5);
+            this.label3.Location = new System.Drawing.Point(8, 4);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 24);
@@ -3062,16 +3062,16 @@ namespace CRM_Tool
             this.leadSourceChart.Dock = System.Windows.Forms.DockStyle.Fill;
             this.leadSourceChart.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.leadSourceChart.Location = new System.Drawing.Point(0, 0);
-            this.leadSourceChart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.leadSourceChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.leadSourceChart.Name = "leadSourceChart";
-            this.leadSourceChart.Size = new System.Drawing.Size(362, 314);
+            this.leadSourceChart.Size = new System.Drawing.Size(321, 250);
             this.leadSourceChart.TabIndex = 0;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(9, 43);
+            this.label4.Location = new System.Drawing.Point(8, 34);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 24);
@@ -3082,9 +3082,9 @@ namespace CRM_Tool
             // 
             this.eventStatusChart.Dock = System.Windows.Forms.DockStyle.Fill;
             this.eventStatusChart.Location = new System.Drawing.Point(0, 0);
-            this.eventStatusChart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.eventStatusChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.eventStatusChart.Name = "eventStatusChart";
-            this.eventStatusChart.Size = new System.Drawing.Size(362, 312);
+            this.eventStatusChart.Size = new System.Drawing.Size(321, 250);
             this.eventStatusChart.TabIndex = 0;
             this.eventStatusChart.Text = "pieChart1";
             // 
@@ -3093,7 +3093,7 @@ namespace CRM_Tool
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer3.IsSplitterFixed = true;
             this.splitContainer3.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer3.Name = "splitContainer3";
             this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -3104,27 +3104,27 @@ namespace CRM_Tool
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.eventsTypeChart);
-            this.splitContainer3.Size = new System.Drawing.Size(883, 632);
-            this.splitContainer3.SplitterDistance = 314;
-            this.splitContainer3.SplitterWidth = 6;
+            this.splitContainer3.Size = new System.Drawing.Size(786, 505);
+            this.splitContainer3.SplitterDistance = 250;
+            this.splitContainer3.SplitterWidth = 5;
             this.splitContainer3.TabIndex = 0;
             // 
             // leadStatusChart
             // 
             this.leadStatusChart.Dock = System.Windows.Forms.DockStyle.Fill;
             this.leadStatusChart.Location = new System.Drawing.Point(0, 0);
-            this.leadStatusChart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.leadStatusChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.leadStatusChart.Name = "leadStatusChart";
-            this.leadStatusChart.Size = new System.Drawing.Size(883, 314);
+            this.leadStatusChart.Size = new System.Drawing.Size(786, 250);
             this.leadStatusChart.TabIndex = 0;
             // 
             // eventsTypeChart
             // 
             this.eventsTypeChart.Dock = System.Windows.Forms.DockStyle.Fill;
             this.eventsTypeChart.Location = new System.Drawing.Point(0, 0);
-            this.eventsTypeChart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.eventsTypeChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.eventsTypeChart.Name = "eventsTypeChart";
-            this.eventsTypeChart.Size = new System.Drawing.Size(883, 312);
+            this.eventsTypeChart.Size = new System.Drawing.Size(786, 250);
             this.eventsTypeChart.TabIndex = 0;
             this.eventsTypeChart.Text = "cartesianChart1";
             // 
@@ -3143,10 +3143,10 @@ namespace CRM_Tool
             this.navBarPanel.Controls.Add(this.companyNameLabel);
             this.navBarPanel.Controls.Add(this.imgLogo);
             this.navBarPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.navBarPanel.Location = new System.Drawing.Point(75, 0);
-            this.navBarPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.navBarPanel.Location = new System.Drawing.Point(67, 0);
+            this.navBarPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navBarPanel.Name = "navBarPanel";
-            this.navBarPanel.Size = new System.Drawing.Size(1251, 77);
+            this.navBarPanel.Size = new System.Drawing.Size(1112, 62);
             this.navBarPanel.TabIndex = 1;
             // 
             // dtLabel
@@ -3154,10 +3154,10 @@ namespace CRM_Tool
             this.dtLabel.Dock = System.Windows.Forms.DockStyle.Right;
             this.dtLabel.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtLabel.ForeColor = System.Drawing.Color.White;
-            this.dtLabel.Location = new System.Drawing.Point(655, 0);
+            this.dtLabel.Location = new System.Drawing.Point(582, 0);
             this.dtLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dtLabel.Name = "dtLabel";
-            this.dtLabel.Size = new System.Drawing.Size(596, 77);
+            this.dtLabel.Size = new System.Drawing.Size(530, 62);
             this.dtLabel.TabIndex = 2;
             this.dtLabel.Text = "00/00/0000 00:00:00";
             this.dtLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3167,10 +3167,10 @@ namespace CRM_Tool
             this.companyNameLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.companyNameLabel.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.companyNameLabel.ForeColor = System.Drawing.Color.White;
-            this.companyNameLabel.Location = new System.Drawing.Point(78, 0);
+            this.companyNameLabel.Location = new System.Drawing.Point(69, 0);
             this.companyNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.companyNameLabel.Name = "companyNameLabel";
-            this.companyNameLabel.Size = new System.Drawing.Size(548, 77);
+            this.companyNameLabel.Size = new System.Drawing.Size(487, 62);
             this.companyNameLabel.TabIndex = 1;
             this.companyNameLabel.Text = "[Company Name]";
             this.companyNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3181,9 +3181,9 @@ namespace CRM_Tool
             this.imgLogo.Dock = System.Windows.Forms.DockStyle.Left;
             this.imgLogo.Image = global::CRM_Tool.Properties.Resources.defultlogo;
             this.imgLogo.Location = new System.Drawing.Point(0, 0);
-            this.imgLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.imgLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.imgLogo.Name = "imgLogo";
-            this.imgLogo.Size = new System.Drawing.Size(78, 77);
+            this.imgLogo.Size = new System.Drawing.Size(69, 62);
             this.imgLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgLogo.TabIndex = 0;
             this.imgLogo.TabStop = false;
@@ -3224,15 +3224,15 @@ namespace CRM_Tool
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1326, 709);
+            this.ClientSize = new System.Drawing.Size(1179, 567);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.navBarPanel);
             this.Controls.Add(this.sideMenuPanel);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.MinimumSize = new System.Drawing.Size(1339, 739);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(1193, 602);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CRM Tool";

@@ -1,4 +1,4 @@
-﻿using LiveCharts;
+using LiveCharts;
 using LiveCharts.Defaults;
 using LiveCharts.Wpf;
 using CRM_Tool.Properties;
@@ -16,6 +16,7 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using DGVPrinterHelper;
 using System.IO;
+using CRM_Tool.Helpers;
 
 /// <summary>
 /// 
@@ -215,8 +216,33 @@ namespace CRM_Tool
         }
         private void delCntBtn_Click(object sender, EventArgs e){ try{ if (contactsBindingSource.Current != null){ if (MessageBox.Show("Are you sure you want to delete this Contact?", "Delete Contact?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes){ db.contacts.Remove(contactsBindingSource.Current as contact); contactsBindingSource.RemoveCurrent(); db.SaveChanges(); CountContacts(); } } }catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel,MessageBoxIcon.Error); } }
         private void viewCntBtn_Click(object sender, EventArgs e){ viewDataGridView(contactDVG); }
-        private void excelCntBtn_Click(object sender, EventArgs e){ exportToExcel(contactDVG, "Contacts"); }
-        private void pdfCntBtn_Click(object sender, EventArgs e){ exportToPdf(contactDVG, "Contacts"); }
+
+        private void excelCntBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Contacts";
+            savefiledialoge.DefaultExt = ".xlsx";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Excel);
+                export.Export(contactDVG, savefiledialoge.FileName);
+            }
+        }
+
+        private void pdfCntBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Contacts";
+            savefiledialoge.DefaultExt = ".pdf";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Pdf);
+                export.Export(contactDVG, savefiledialoge.FileName);
+            }
+        }
+
         private void printCntTable_Click(object sender, EventArgs e){ printDataGrid(contactDVG, "Contact"); }
         private void contactDVG_SelectionChanged(object sender, EventArgs e){ if (contactDVG.SelectedRows.Count > 0){ delCntBtn.Enabled = true; editCntBtn.Enabled = true; }else{ delCntBtn.Enabled = false; editCntBtn.Enabled = false; } }
         //Leads Buttons Click Event
@@ -224,8 +250,32 @@ namespace CRM_Tool
         private void editLeadBtn_Click(object sender, EventArgs e){ try{ if (leadsBindingSource.Current == null){ return; } using (AddEditLeadForm aeLeadFrm = new AddEditLeadForm(leadsBindingSource.Current as lead)){ if (aeLeadFrm.ShowDialog() == DialogResult.OK){ leadsBindingSource.DataSource = db.leads.ToList(); } } leadChartsUpdate(); newLeadsDVG_data(); } catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error); } }
         private void delLeadBtn_Click(object sender, EventArgs e){ try{ if (leadsBindingSource.Current != null){ if (MessageBox.Show("Are you sure you want to delete this Lead?", "Delete Lead?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes){ db.leads.Remove(leadsBindingSource.Current as lead); leadsBindingSource.RemoveCurrent(); db.SaveChanges(); CountLeads(); newLeadsDVG_data(); leadChartsUpdate(); } } } catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error); } }
         private void previewLeadBtn_Click(object sender, EventArgs e){ viewDataGridView(leadsDVG); }
-        private void excelLeadBtn_Click(object sender, EventArgs e){ exportToExcel(leadsDVG, "Leads"); }
-        private void pdfLeadBtn_Click(object sender, EventArgs e){ exportToPdf(leadsDVG, "Leads"); }
+
+        private void excelLeadBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Leads";
+            savefiledialoge.DefaultExt = ".xlsx";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Excel);
+                export.Export(leadsDVG, savefiledialoge.FileName);
+            }
+        }
+
+        private void pdfLeadBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Leads";
+            savefiledialoge.DefaultExt = ".pdf";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Pdf);
+                export.Export(leadsDVG, savefiledialoge.FileName);
+            }
+        }
         private void printLeadBtn_Click(object sender, EventArgs e){ printDataGrid(leadsDVG, "Leads"); }
         private void leadsDVG_SelectionChanged(object sender, EventArgs e) { if (leadsDVG.SelectedRows.Count > 0) { delLeadBtn.Enabled = true; editLeadBtn.Enabled = true; } else { delLeadBtn.Enabled = false; editLeadBtn.Enabled = false; } }
         //Events Buttons Click Event
@@ -233,8 +283,32 @@ namespace CRM_Tool
         private void editEventBtn_Click(object sender, EventArgs e){ try{ if (eventsBindingSource.Current == null){ return; } using (AddEditEventForm aeEventFrm = new AddEditEventForm(eventsBindingSource.Current as @event)) { if (aeEventFrm.ShowDialog() == DialogResult.OK){ eventsBindingSource.DataSource = db.events.ToList(); } } eventChartsUpdate(); todaysEventDVG_data(); } catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error); } }
         private void delEventBtn_Click(object sender, EventArgs e){ try{ if (eventsBindingSource.Current != null){ if (MessageBox.Show("Are you sure you want to delete this Event?", "Delete Event?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes){ db.events.Remove(eventsBindingSource.Current as @event); eventsBindingSource.RemoveCurrent(); db.SaveChanges(); CountEvents(); todaysEventDVG_data(); eventChartsUpdate(); } } }catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error); }}
         private void viewEventBtn_Click(object sender, EventArgs e){ viewDataGridView(eventsDVG); }
-        private void excelEventBtn_Click(object sender, EventArgs e){ exportToExcel(eventsDVG, "Events"); }
-        private void pdfEventBtn_Click(object sender, EventArgs e){ exportToPdf(eventsDVG, "Events"); }
+
+        private void excelEventBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Events";
+            savefiledialoge.DefaultExt = ".xlsx";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Excel);
+                export.Export(eventsDVG, savefiledialoge.FileName);
+            }
+        }
+
+        private void pdfEventBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Events";
+            savefiledialoge.DefaultExt = ".pdf";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Pdf);
+                export.Export(eventsDVG, savefiledialoge.FileName);
+            }
+        }
         private void printEventBtn_Click(object sender, EventArgs e){ printDataGrid(eventsDVG, "Events"); }
         private void eventsDVG_SelectionChanged(object sender, EventArgs e) { if (eventsDVG.SelectedRows.Count > 0) { delEventBtn.Enabled = true; editEventBtn.Enabled = true; } else { delEventBtn.Enabled = false; editEventBtn.Enabled = false; } }
         //Tasks Buttons Click Event
@@ -242,8 +316,32 @@ namespace CRM_Tool
         private void editTaskBtn_Click(object sender, EventArgs e){ try{ if (tasksBindingSource.Current == null){ return; }using (AddEditTaskForm aeTaskFrm = new AddEditTaskForm(tasksBindingSource.Current as task)){ if (aeTaskFrm.ShowDialog() == DialogResult.OK){ tasksBindingSource.DataSource = db.tasks.ToList(); } } }catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error); } }
         private void delTaskBtn_Click(object sender, EventArgs e){ try{ if (tasksBindingSource.Current != null){ if (MessageBox.Show("Are you sure you want to delete this Task?", "Delete Task?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes){ db.tasks.Remove(tasksBindingSource.Current as task); tasksBindingSource.RemoveCurrent(); db.SaveChanges(); CountTasks(); } } }catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error); } }
         private void viewTaskBtn_Click(object sender, EventArgs e){ viewDataGridView(tasksDVG); }
-        private void excelTaskBtn_Click(object sender, EventArgs e){ exportToExcel(tasksDVG, "Tasks"); }
-        private void pdfTaskBtn_Click(object sender, EventArgs e){ exportToPdf(tasksDVG, "Tasks"); }
+
+        private void excelTaskBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Tasks";
+            savefiledialoge.DefaultExt = ".xlsx";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Excel);
+                export.Export(tasksDVG, savefiledialoge.FileName);
+            }
+        }
+
+        private void pdfTaskBtn_Click(object sender, EventArgs e)
+        {
+            var savefiledialoge = new SaveFileDialog();
+            savefiledialoge.FileName = "Tasks";
+            savefiledialoge.DefaultExt = ".pdf";
+
+            if (savefiledialoge.ShowDialog() == DialogResult.OK)
+            {
+                var export = ExportFactory.CreateExport(ExportFactory.ExportType.Pdf);
+                export.Export(tasksDVG, savefiledialoge.FileName);
+            }
+        }
         private void printTaskBtn_Click(object sender, EventArgs e){ printDataGrid(tasksDVG, "Tasks"); }
         private void tasksDVG_SelectionChanged(object sender, EventArgs e) { if (tasksDVG.SelectedRows.Count > 0) { delTaskBtn.Enabled = true; editTaskBtn.Enabled = true; } else { delTaskBtn.Enabled = false; editTaskBtn.Enabled = false; } }
 
@@ -312,71 +410,7 @@ namespace CRM_Tool
             catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error); }
 
         }
-        /// <summary>
-        /// Export to PDF
-        /// </summary>
-        /// <param name="dgv"></param>
-        /// <param name="filename"></param>
-        private void exportToPdf(DataGridView dgv, string filename)
-        {
-            try
-            {
-                BaseFont bf = BaseFont.CreateFont(BaseFont.TIMES_ROMAN, BaseFont.CP1250, BaseFont.EMBEDDED);
-                PdfPTable pdfTable = new PdfPTable(dgv.Columns.Count);
-                float[] miscWidthPosit = new float[] { 1000f, 200f };
-                pdfTable.DefaultCell.Padding = 1;
-                pdfTable.WidthPercentage = 100;
-                pdfTable.HorizontalAlignment = Element.ALIGN_LEFT;
-                pdfTable.DefaultCell.BorderWidth = 1;
-                pdfTable.SpacingBefore = 10;
-                iTextSharp.text.Font text = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.NORMAL);
-                // data header
-                foreach (DataGridViewColumn column in dgv.Columns)
-                {
-                    PdfPCell cell = new PdfPCell(new Phrase(column.HeaderText, text));
-                    cell.BackgroundColor = new iTextSharp.text.BaseColor(240, 240, 240);
-                    pdfTable.AddCell(cell);
-                }
 
-                // data rows
-                foreach (DataGridViewRow row in dgv.Rows)
-                {
-                    foreach (DataGridViewCell cell in row.Cells)
-                    {
-
-                        if (cell.Value == null)
-                        {
-                            pdfTable.AddCell(new Phrase(" ", text));
-                        }
-                        else
-                        {
-                            pdfTable.AddCell(new Phrase(cell.Value.ToString(), text));
-                        }
-
-                    }
-
-                }
-                var savefiledialoge = new SaveFileDialog();
-                savefiledialoge.FileName = filename;
-                savefiledialoge.DefaultExt = ".pdf";
-                if (savefiledialoge.ShowDialog() == DialogResult.OK)
-                {
-
-                    using (FileStream stream = new FileStream(savefiledialoge.FileName, FileMode.Create))
-                    {
-                        Document pdfdoc = new Document(PageSize.A4, 10f, 10f, 10f, 0f);
-                        PdfWriter.GetInstance(pdfdoc, stream);
-                        pdfdoc.Open();
-                        pdfdoc.Add(pdfTable);
-                        pdfdoc.Close();
-                        stream.Close();
-                        MessageBox.Show("PDF Exported successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                }
-            }
-            catch (Exception ex) { MessageBox.Show(ex.Message, "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error); }
-
-        }
         /// <summary>
         /// Print View DataGridView
         /// </summary>
@@ -683,58 +717,6 @@ namespace CRM_Tool
 
             eventsTypeChart.LegendLocation = LegendLocation.Right;
             //_________________________________________________________________________________________
-        }
-
-        /// <summary>
-        /// Export to Excel
-        /// </summary>
-        /// <param name="dvg"></param>
-        /// <param name="fileName"></param>
-        private void exportToExcel(DataGridView dvg, string fileName)
-        {
-            try
-            {
-                Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
-                Microsoft.Office.Interop.Excel._Workbook workbook = app.Workbooks.Add(Type.Missing);
-                Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
-                worksheet = workbook.Sheets["Sheet1"];
-                worksheet = workbook.ActiveSheet;
-                worksheet.Name = "Excel WorkSheet";
-                for (int i = 1; i < dvg.Columns.Count + 1; i++)
-                {
-                    worksheet.Cells[1, i] = dvg.Columns[i - 1].HeaderText;
-                }
-                for (int i = 0; i < dvg.Rows.Count; i++)
-                {
-                    for (int j = 0; j < dvg.Columns.Count; j++)
-                    {
-                        // charck if cell is empty
-                        if (dvg.Rows[i].Cells[j].Value == DBNull.Value || dvg.Rows[i].Cells[j].Value == null)
-                        {
-                            dvg.Rows[i].Cells[j].Value = " ";
-                        }
-                        else
-                        {
-                            worksheet.Cells[i + 2, j + 1] = dvg.Rows[i].Cells[j].Value.ToString();
-                        }
-                    }
-                }
-
-                var sfd = new SaveFileDialog();
-                sfd.FileName = fileName;
-                sfd.DefaultExt = ".xlsx";
-                if (sfd.ShowDialog() == DialogResult.OK)
-                {
-                    workbook.SaveAs(sfd.FileName, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
-                   MessageBox.Show("Excel Exported successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                app.Quit();
-               
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Error);
-            }
         }
     }
 }

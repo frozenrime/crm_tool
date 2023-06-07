@@ -173,6 +173,10 @@
     <Compile Include="event.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ExcelExport.cs" />
+    <Compile Include="Helpers\ExportBase.cs" />
+    <Compile Include="Helpers\ExportFactory.cs" />
+    <Compile Include="Helpers\PdfExport.cs" />
     <Compile Include="lead.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
